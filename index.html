@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drag Drop</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <form method="POST">
+
+        <div class="table dropzone" id="table_1">
+
+            <div class="row" id="row_1">
+
+                <!-- Élément non dragable -->
+                <div class="row_title">
+                    À traiter
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_1" class="cards draggable">
+                    Michel Dupont<br><br>
+                    ID card 1 : <input type="text" name="id_element_1" value="455" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_1" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_1" value="1" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_1" value="1" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_2" class="cards draggable">
+                    Victor Lebon<br><br>
+                    ID card 2 : <input type="text" name="id_element_2" value="425" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_2" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_2" value="1" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_2" value="2" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_3" class="cards draggable">
+                    Suzanne Aubert<br><br>
+                    ID card 3 : <input type="text" name="id_element_3" value="322" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_3" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_3" value="1" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_3" value="3" class="short" disabled>
+                </div>
+
+            </div>
+
+            <div class="row" id="row_2">
+
+                <!-- Élément non dragable -->
+                <div class="row_title">
+                    En cours
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_4" class="cards draggable">
+                    Julien Cousin<br><br>
+                    ID card 4 : <input type="text" name="id_element_4" value="145" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_4" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_4" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_4" value="1" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_5" class="cards draggable">
+                    Dominique Morel<br><br>
+                    ID card 5 : <input type="text" name="id_element_5" value="325" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_5" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_5" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_5" value="2" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_6" class="cards draggable">
+                    Claude Goncalves<br><br>
+                    ID card 6 : <input type="text" name="id_element_6" value="224" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_6" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_6" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_6" value="3" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_7" class="cards draggable">
+                    Nicolas Maury<br><br>
+                    ID card 7 : <input type="text" name="id_element_7" value="351" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_7" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_7" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_7" value="4" class="short" disabled>
+                </div>
+
+            </div>
+
+            <div class="row" id="row_3">
+
+                <!-- Élément non dragable -->
+                <div class="row_title">
+                    Terminé
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_8" class="cards draggable">
+                    Josette Lemoine<br><br>
+                    ID card 8 : <input type="text" name="id_element_8" value="351" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_8" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_8" value="3" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_8" value="1" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_9" class="cards draggable">
+                    Jérôme Le Gall<br><br>
+                    ID card 9 : <input type="text" name="id_element_9" value="351" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_9" value="1" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_9" value="3" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_9" value="2" class="short" disabled>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="table dropzone" id="table_2">
+
+            <div class="row" id="row_1">
+
+                <!-- Élément non dragable -->
+                <div class="row_title">
+                    À traiter
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_10" class="cards draggable">
+                    Michel Dupont<br><br>
+                    ID card 10 : <input type="text" name="id_element_10" value="455" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_10" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_10" value="1" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_10" value="1" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_11" class="cards draggable">
+                    Victor Lebon<br><br>
+                    ID card 11 : <input type="text" name="id_element_11" value="425" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_11" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_11" value="1" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_11" value="2" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_12" class="cards draggable">
+                    Suzanne Aubert<br><br>
+                    ID card 12 : <input type="text" name="id_element_12" value="322" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_12" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_12" value="1" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_12" value="3" class="short" disabled>
+                </div>
+
+            </div>
+
+            <div class="row" id="row_2">
+
+                <!-- Élément non dragable -->
+                <div class="row_title">
+                    En cours
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_13" class="cards draggable">
+                    Julien Cousin<br><br>
+                    ID card 13 : <input type="text" name="id_element_13" value="145" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_13" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_13" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_13" value="1" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_14" class="cards draggable">
+                    Dominique Morel<br><br>
+                    ID card 14 : <input type="text" name="id_element_14" value="325" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_14" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_14" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_14" value="2" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_15" class="cards draggable">
+                    Claude Goncalves<br><br>
+                    ID card 15 : <input type="text" name="id_element_15" value="224" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_15" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_15" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_15" value="3" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_16" class="cards draggable">
+                    Nicolas Maury<br><br>
+                    ID card 16 : <input type="text" name="id_element_16" value="351" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_16" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_16" value="2" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_16" value="4" class="short" disabled>
+                </div>
+
+            </div>
+
+            <div class="row" id="row_3">
+
+                <!-- Élément non dragable -->
+                <div class="row_title">
+                    Terminé
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_18" class="cards draggable">
+                    Josette Lemoine<br><br>
+                    ID card 18 : <input type="text" name="id_element_18" value="351" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_18" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_18" value="3" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_18" value="1" class="short" disabled>
+                </div>
+
+                <!-- Élément dragable -->
+                <div id="id_card_17" class="cards draggable">
+                    Jérôme Le Gall<br><br>
+                    ID card 17 : <input type="text" name="id_element_17" value="351" disabled><br>
+                    Table : <input id="id_tab" type="text" name="id_tab_17" value="2" class="short" disabled>
+                    Colonne : <input id="id_row" type="text" name="id_row_17" value="3" class="short" disabled>
+                    Ligne : <input id="id_line" type="text" name="id_line_17" value="2" class="short" disabled>
+                </div>
+
+            </div>
+
+        </div>
+
+        <input type="hidden" name="nb_cards" value="9">
+    </form>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
